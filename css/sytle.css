@@ -898,11 +898,35 @@ footer{
         padding: 1rem;
     }
 
+    header nav .conatiner_logo{
+        margin-left: 2rem;
+    }
+
     
 }
 
 
 @media (max-width:689px){
+
+    .swiper-button-next{
+  
+        -webkit-text-fill-color: white;
+        margin-right: 3rem;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .swiper-button-prev{
+        -webkit-text-fill-color: white;
+       margin-left: 3rem;
+       transition: all 0.2s ease-in-out;
+    }
+    
+    .swiper-button-prev:hover,.swiper-button-next:hover{
+        transform: scale(1.30);
+    
+     
+    
+    }
 
     .card_3{
         width: 300px;
@@ -926,22 +950,162 @@ footer{
         font-size: 19px;
     }
 
+   
+
 }
 
 
 @media (max-width:591px){
 .parte_4_flex{
     flex-direction: column;
+
+
 }
 
 .parte_4_right{
     width: 100%;
+    padding-left: unset;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.itens_4{
+
+    width: 100%;
+  
 }
 
 .parte_4_left{
-    width: 100%;
+  
     display: none;
 }
 
+#none{
+    display: none;
 }
 
+.shape_1{
+    height: 39%;
+}
+
+.shape_1 img{
+    top: 0px;
+}
+
+.text_1{
+    padding-bottom: 30rem;
+}
+
+
+
+
+}
+
+
+
+
+@media (max-width:591px){
+
+    .shape_1 {
+        height: 30%;
+        
+    }
+    
+    .text_1{
+        padding-bottom: 30rem;
+    }
+
+    .swiper-slide img{
+        height: 30vh;
+    }
+    
+}
+    
+@media (max-width:470px){
+
+    .active_nav{
+        width: 80%;
+    }
+
+    header nav .conatiner_logo{
+        margin-left: 4rem;
+    }
+
+    header nav .conatiner_logo img{
+        width: 170px;
+        height: 170px;
+
+    }
+
+    .swiper-button-next{
+  
+        -webkit-text-fill-color: white;
+        margin-right: 1rem;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .swiper-button-prev{
+        -webkit-text-fill-color: white;
+       margin-left: 1rem;
+       transition: all 0.2s ease-in-out;
+    }
+    
+
+    .parte_1{
+        padding: 0.5rem;
+    }
+
+    .shape_1 {
+        height: 30%;
+        
+    }
+    
+    .text_1{
+        padding-bottom: 23rem;
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .shape_1 img{
+        height: 400px;
+
+    }
+
+    .parte_2_right{
+        padding: 0.5rem;
+    }
+
+    .text_2{
+        font-size: 20px;
+    }
+
+
+    .swiper-slide img{
+        border-radius: 10px;
+
+    }
+    .banner{
+        padding: unset;
+        margin-bottom: 2rem;
+    }
+    
+}
+    
+
+
+@media (max-width:380px){
+
+    .shape_1 img{
+        height: 300px;
+    }
+
+    .swiper-slide img{
+        border-radius: 10px;
+        height: 20vh;
+    }
+
+
+}
